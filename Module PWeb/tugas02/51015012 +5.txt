@@ -1,0 +1,7 @@
+Skoring
+
+10+ tugas selesai
+0- selektor > 13 baris
+-5 untuk halaman yang berantakan saat diperkecil
+
+10-5 = +5
