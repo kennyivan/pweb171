@@ -29,6 +29,11 @@ body
 {
   width: 100%;
   margin-left: -20px;
+  border-left: 15px;
+  border-right: 15px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 15px;
 }
 
 .menu li
@@ -39,6 +44,12 @@ body
   background-color: #059305;
   text-align: center;
   font-weight: bold;
+  border-left: 15px;
+  border-right: 15px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 3px 3px #343537;
 }
 
 .menu li a
@@ -47,6 +58,11 @@ body
   color: #ffffff;
   display: block;
   box-shadow: 3px 3px #343537;
+  border-left: 15px;
+  border-right: 15px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 15px;
 }
 
 .menu li a:hover
@@ -54,7 +70,12 @@ body
   text-decoration:none;
   color: #000000;
   background-color: #33B5E5;
-  box-shadow: 5px 5px #343537
+  box-shadow: 5px 5px #343537;
+  border-left: 15px;
+  border-right: 15px;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-radius: 15px;
 }
 
 .judulutama
@@ -78,11 +99,12 @@ body
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: block;
+  display: none;
   overflow: hidden;
   font-weight: bold;
   text-align: center;
   padding-bottom: 10px;
+
 }
 
 .boxgambar
@@ -104,34 +126,50 @@ body
 .judullagu
 {
   color: #7f2ed1;
+  font-family: 'Barlow Condensed' sans-serif;
   text-shadow: 2px 2px #343537;
+}
+
+.tekslagu
+{
+  font-family: 'Barlow Condensed' sans-serif;
 }
 
 #copyright
 {
   position: sticky;
-  width: 100%;
+  width: 95%;
   line-height: 30px;
   margin-bottom: 0px;
   background-color: #fff;
   text-align: center;
+  margin-left: 50px;
   font-size: 10px;
 }
 
-@media screen and(max-width: 720px)
-{
-.sidemenu
-{
-  width: 100%;
+/* responsive layout */
+@media screen and (max-width: 720px) {
+  .sidemenu   {
+    width: 100%;
+  }
+  .content   {
+    width: 100%;
+    margin-left: auto;
+  }
+
+ .bloklagu   {
+   width: 95%;
+ }
+
 }
 
-.content{
-  width: 100%;
-  margin-left: auto;
-}
 
-.bloklagu
+#info
 {
-  width: 95%;
-}
+color: #ff00ff;
+font-weight: bold;
+margin-top: 40px;
+margin-left: auto;
+width: 600px;
+padding: 10px;
 }
