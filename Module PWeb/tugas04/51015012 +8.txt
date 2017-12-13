@@ -1,0 +1,9 @@
+15+     Tugas Selesai
+-5      Copyright masih dibawah
+-5      Judul warna sama dengan counter
+0       <<Klik Menu tidak hilang
++0      untuk selektor > 13 
++0      untuk perubahan semua warna
++3      untuk setiap perbedaan typeface
+
+15-10+3 = +8
