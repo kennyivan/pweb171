@@ -1,0 +1,10 @@
++10        Selesai tugas
++5         Tampilan template
++5         Custom template
+2*8= +16   Untuk setiap selektor di custom style
+-5         Menu non-template
+-5         Content non-lagu
+0          Untuk sisa content sample template
+0          Untuk copyright
+
+10+5+5+6 = +26
