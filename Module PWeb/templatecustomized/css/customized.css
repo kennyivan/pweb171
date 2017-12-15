@@ -1,0 +1,65 @@
+body
+{
+  background-image: url("touhou1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.inner {
+  padding: 2rem;
+  font-weight: bold;
+  color:#ab000d;
+  font-family: 'Merienda';
+  text-shadow: 1.5px 1.5px #000000;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255,255,255,.5);
+  opacity: 0.8;
+}
+
+.bloklagu
+{
+  width: 800px;
+  border-radius: 7px;
+  display: block;
+  overflow: hidden;
+  display: none;
+  font-weight: bold;
+  padding-bottom: 10px;
+  align-self: center;
+  align-content: center;
+  text-align: center;
+  margin-right: 80px;
+}
+
+.boxgambar
+{
+  width:100%;
+  height: 300px;
+  overflow:hidden;
+}
+
+.judullagu
+{
+  color:#b61827;
+  font-family: 'Merienda';
+  text-shadow: 1px 1px #000000;
+}
+.textlagu
+{
+  font-family: 'Short Stack'
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+  opacity: 0.5;
+}
