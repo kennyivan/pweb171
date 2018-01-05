@@ -1,0 +1,7 @@
++10				Tugas Selesai
++0				Commit terakhir 2017
+-0				Untuk http://localhost/...
++0				Untuk 1 Controller + banyak fungsi
+-0				Untuk setiap halaman error
+-0				Untuk image error
++0				Untuk setiap tombol back dengan href="/"

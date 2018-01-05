@@ -1,0 +1,107 @@
+body
+{
+  background-color: #5c6bc0;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 52px;
+  color: #ffff66;
+}
+
+a:link, a:visited, a:active
+{
+  width: 200px;
+  margin: 4px;
+  background-color: #059305;
+  color: #d1d9ff;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  font-family: 'Courgette', cursive;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+
+}
+
+a:hover
+{
+  width: 200px;
+  margin: 4px;
+  background-color: #c60909;
+  color: #fff;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+  border-radius: 20px;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+}
+
+img
+{
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lagu
+{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 21px;
+  font-style: italic;
+  color: #ffff66;
+  font-family: 'Courgette', cursive;
+}
+
+#title
+{
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  text-shadow: 1px 2px 4px;
+  color: #ffff66;
+  font-family: 'Courgette', cursive;
+}
+
+#sub-title
+{
+  text-align: center;
+  font-size: 42px;
+  color: #ff0000;
+  font-family: 'Courgette', cursive;
+}
+
+#author
+{
+  text-align: left;
+  text-underline-position: auto;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: 'Courgette', cursive;
+}
+
+#ttl
+{
+  text-align: center;
+  float: center;
+  font-family: 'Courgette', cursive;
+}
+
+#main-title
+{
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 56px;
+  font-family: 'Courgette', cursive;
+}
