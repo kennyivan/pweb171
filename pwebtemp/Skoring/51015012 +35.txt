@@ -1,0 +1,12 @@
++10			Untuk tugas selesai
++5			Untuk semua lagu dipanggil dari 1 controller
++2*5= +10	Untuk setiap function dalam controller
++2*9= +18	Untuk setiap custom selector dalam custom css
++0			Untuk pemanggilan template tunggal
+-5 			Untuk gambar distorsi
+-0			Untuk content sample template tersisa
+-3			Untuk tombol back
+
+10+5+10+18= +43
+3+5		  = -8
+Jumlah nilai = +35

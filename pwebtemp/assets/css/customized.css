@@ -1,0 +1,134 @@
+.bglagu
+{
+  background-color: #5ede67;
+}
+
+.album
+{
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card
+{
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img
+{
+  padding: .75rem;
+  height: 200px;
+}
+
+.card-text
+{
+  font-size: 100%;
+  font-weight: bold;
+  align-self: center;
+}
+
+.link-text
+{
+  align-self: center;
+  color: #000000;
+}
+
+.link-text > a:hover
+{
+  background-color: #c60909;
+  text-decoration: underline;
+}
+
+.link-text > a:link, a:visited, a:active
+{
+  background-color: #059305;
+}
+
+.jumbotron .container
+{
+  max-width: 40rem;
+  border-top: 6px;
+  border-bottom: 6px;
+  border-left: 6px;
+  border-right: 6px;
+}
+
+#header-title
+{
+  align-self: center;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  margin-left: 430px;
+}
+
+#copyright
+{
+  position: sticky;
+  width: 50%;
+  line-height: 30px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  text-align: center;
+  margin-left: none;
+  font-size: 16px;
+  color: #059305;
+}
+
+#ttl
+{
+  text-align: center;
+  float: center;
+}
+
+#main-title
+{
+  font-weight: bold;
+  color: #ff0000;
+  font-size: 56px;
+}
+
+#title
+{
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+  text-shadow: 1px 2px 4px;
+  color: #0000ff;
+}
+
+#sub-title
+{
+  text-align: center;
+  font-size: 42px;
+  color: #ff0000;
+}
+
+#lagu
+{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 21px;
+  font-style: italic;
+  color: #ffff66;
+}
+
+img
+{
+  width: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1
+{
+  text-align: center;
+  font-size: 52px;
+}
