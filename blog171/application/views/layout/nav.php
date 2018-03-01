@@ -20,8 +20,8 @@
               <?php if($this->session->uid){?>
               <li role="presentation"><a href="/blog/post">Tulis Blog</a></li>
               <li role="presentation"><a href="/bloguser/<?= $this->session->uid ?>">Blog User</a></li>
-              <?php } ?>
               <li role="presentation"><a href="/user/<?= $this->session->uid ?>">Profile</a></li>
+              <?php } ?>
               <li role="presentation"><a href="/log">Login</a></li>
             </ul>
           </div>
