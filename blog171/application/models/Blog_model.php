@@ -10,7 +10,7 @@ class Blog_model extends CI_Model {
   * data satu blog berdasarkan blog_ID
   */
   public function blog( $blog_ID ){
-    $query = $this->db->query("SELECT * FROM blogs WHERE blog_ID='".$blog_ID."'");
+    $query = $this->db->query("SELECT * FROM blogs INNER JOIN users USING (user_ID) WHERE blog_ID='".$blog_ID."'");
     return $query->row_array();
   }
 
@@ -61,6 +61,12 @@ class Blog_model extends CI_Model {
     $this->session->blog_id = $blog_id;
     $this->db->where('blog_id',$blog_id);
     $this->db->update('blogs', $data);
+  }
+
+  public function bloguser($user_ID){
+    $sql = "SELECT blogs.tanggal,blogs.judul,blogs.blog_ID FROM users INNER JOIN blogs USING(user_ID) WHERE users.user_ID ='".$user_ID."'ORDER BY tanggal DESC";
+    $query = $this->db->query($sql);
+    return $query->result_array();
   }
 
 

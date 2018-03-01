@@ -12,10 +12,10 @@
 
           <div class="carousel-inner">
             <div class="item active">
-              <img src="assets/img/03.jpg" class="img-responsive" alt="">
+              <img src="assets/img/01.jpg" class="img-responsive" alt="">
             </div>
             <div class="item">
-              <img src="assets/img/03.jpg" class="img-responsive" alt="">
+              <img src="assets/img/02.jpg" class="img-responsive" alt="">
             </div>
             <div class="item">
               <img src="assets/img/03.jpg" class="img-responsive" alt="">
@@ -43,7 +43,7 @@
       <div class="col-md-6 col-md-offset-3">
         <h2>Blog Novel Xianxia</h2>
         <hr>
-        <p class="lead">A Collection of Fantasy Novel of Ancient China</p>
+        <p class="lead">A Collection of Fantasy Xianxia Novel</p>
       </div>
     </div>
   </div>

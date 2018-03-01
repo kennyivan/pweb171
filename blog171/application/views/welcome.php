@@ -6,8 +6,8 @@
           <!-- Indicators -->
           <ol class="carousel-indicators visible-xs">
             <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-slider" data-slide-to="1"></li>
-            <li data-target="#carousel-slider" data-slide-to="2"></li>
+            <li data-target="#carousel-slider" data-slide-to="1" ></li>
+            <li data-target="#carousel-slider" data-slide-to="2" ></li>
           </ol>
 
           <div class="carousel-inner">
@@ -22,13 +22,7 @@
             </div>
           </div>
 
-          <a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
 
-          <a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
         </div>
         <!--/#carousel-slider-->
       </div>
@@ -43,18 +37,20 @@
       <div class="col-md-6 col-md-offset-3">
         <h2>Blog Novel Xianxia</h2>
         <hr>
-        <p class="lead">A Collection of Fantasy Novel of Ancient China</p>
+        <p class="lead">A Collection of Fantasy Xianxia Novel</p>
       </div>
     </div>
   </div>
 
 
-<br>
-<br>
+<br><br>
 <h3>Blogs</h3>
+<br><br>
+<hr>
 <?php
 	foreach( $blogs as $blog ){
-		echo "<a href='/blog/" . $blog['blog_ID'] ."'>" . $blog['judul']."<a><br>";
+		echo "<a id='cblog' href='/blog/" . $blog['blog_ID'] ."'>" . $blog['judul']."<a><br><br>";
 	}
 
  ?>
+<hr>

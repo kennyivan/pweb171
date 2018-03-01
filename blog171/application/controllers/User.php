@@ -66,6 +66,10 @@ class User extends CI_Controller {
     // kembali ke halaman depan
     redirect('/');
   }
+  public function profil($user_id){
+    $data['user']=$this->user_model->userid($user_id);
+    $this->load->template('profil',$data);
+  }
 
 
 }

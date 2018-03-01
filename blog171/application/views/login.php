@@ -11,7 +11,7 @@
       <br>
       <?php
       	if( isset( $this->session->nama ) ){
-      		echo
+      		echo $this->session->nama .
       					" (<a href='/signout'>signout</a>) | " ;
       	}
       ?>

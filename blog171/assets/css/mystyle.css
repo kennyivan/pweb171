@@ -17,6 +17,46 @@ body
 
 #isi
 {
-  font-size: 16px;
+  font-size: 24px;
 
+}
+
+input
+{
+  border-radius: 4px;
+}
+
+#reg
+{
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 450px;
+}
+ hr
+ {
+   font-weight: bold;
+ }
+
+#button
+{
+  background-color: #b2ebf2;
+  color: #000000;
+}
+
+img
+{
+  overflow: hidden;
+}
+
+#cblog
+{
+  font-size: 24px;
+  font-style: italic;
+  margin-left: 40px;
+}
+
+a:hover
+{
+  color: #6a1b9a;
+  font-weight: bold;
 }

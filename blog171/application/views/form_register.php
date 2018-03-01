@@ -1,10 +1,28 @@
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="reg">Register</p>
+<br>
 
-<form action="/user/reg_submit" method="post">
+<section id="about">
+  <div class="container">
+    <div class="center">
+      <div class="col-md-6 col-md-offset-3">
+        <hr>
+        <form action="/user/reg_submit" method="post">
 
-  Alamat Email: <input type="email" name="email"><br>
-  Nama: <input type="text" name="nama"><br>
-  Password: <input type="password" name="pass1"><br>
-  Verifikasi Password: <input type="password" name="pass2"><br>
-  <input type="submit" value="Register">
+          Alamat Email: <br> <input type="email" name="email"><br>
+          Nama: <br> <input type="text" name="nama"><br>
+          Password: <br> <input type="password" name="pass1"><br>
+          Verifikasi Password: <br> <input type="password" name="pass2"><br><br>
+          <input id="button" type="submit" value="Register">
 
-</form>
+        </form>
+        <hr>
+      </div>
+    </div>
+  </div>

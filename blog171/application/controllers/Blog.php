@@ -35,6 +35,11 @@ class Blog extends CI_Controller {
     $this->load->template( 'postblog' );
 	}
 
+  public function blogusers($user_ID){
+    $data['user'] = $this->blog_model->bloguser($user_ID);
+    $this->load->template('bloglist',$data);
+  }
+
 	public function submit()	{
     $this->blog_model->submit();
     redirect("/");

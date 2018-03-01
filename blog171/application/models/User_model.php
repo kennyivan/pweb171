@@ -43,4 +43,10 @@ class User_model extends CI_Model {
     return false;
   }
 
+  public function userid($user_ID){
+    $sql = "SELECT * FROM users WHERE user_ID = '".$user_ID."'";
+    $query = $this->db->query($sql);
+    return $query->row_array();
+  }
+
 }

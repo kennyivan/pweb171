@@ -17,8 +17,11 @@
           <div class="menu">
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="/" class="active">Home</a></li>
+              <?php if($this->session->uid){?>
               <li role="presentation"><a href="/blog/post">Tulis Blog</a></li>
-              <li role="presentation"><a href="#services">Profile</a></li>
+              <li role="presentation"><a href="/bloguser/<?= $this->session->uid ?>">Blog User</a></li>
+              <?php } ?>
+              <li role="presentation"><a href="/user/<?= $this->session->uid ?>">Profile</a></li>
               <li role="presentation"><a href="/log">Login</a></li>
             </ul>
           </div>
