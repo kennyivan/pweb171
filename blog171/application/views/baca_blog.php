@@ -15,7 +15,6 @@
         <br><br><br>
         <hr>
         <h3>Creator: <?= $blog['nama']?> </h3>
-        <h3>Email: <?= $blog['email']?> </h3>
         <h3>Last Update: <?= $blog['tanggal']?> </h3>
 
         <br><br><br>
